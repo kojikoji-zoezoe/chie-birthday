@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#ff78ae"><title>Happy Birthday, Chie ♡</title><style>
+:root{font-family:'Hiragino Maru Gothic ProN','Yu Gothic',system-ui,sans-serif;color:#783c69}*{box-sizing:border-box}html,body{margin:0;min-height:100%;overflow-x:hidden}body{background:radial-gradient(circle at 20% 15%,#fff3a8 0,transparent 30%),radial-gradient(circle at 85% 25%,#ffd3e9 0,transparent 35%),linear-gradient(145deg,#fff3fb,#d9f6ff 60%,#fff4cc);min-height:100svh;display:grid;place-items:center;padding:24px 16px}.sparkle{position:fixed;pointer-events:none;opacity:.65;animation:float 5s ease-in-out infinite alternate;font-size:24px}.sparkle:nth-child(1){top:12%;left:8%}.sparkle:nth-child(2){top:22%;right:9%;animation-delay:1s}.sparkle:nth-child(3){bottom:16%;left:12%;animation-delay:2s}.sparkle:nth-child(4){bottom:12%;right:10%;animation-delay:.5s}@keyframes float{to{transform:translateY(-22px) rotate(20deg)}}main{width:min(100%,510px);position:relative;z-index:2}.card{background:rgba(255,255,255,.83);backdrop-filter:blur(16px);border:3px solid white;border-radius:34px;box-shadow:0 22px 70px #d75e9940;padding:34px 25px 30px;text-align:center;min-height:530px;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden}.card:before{content:'';position:absolute;width:230px;height:230px;border-radius:50%;background:#ffe0f0;top:-145px;right:-65px}.eyebrow{font-size:13px;letter-spacing:.25em;font-weight:800;color:#f06da7}.headline{font-size:clamp(35px,9vw,55px);line-height:1.06;color:#f05b9d;text-shadow:3px 4px 0 #ffe0a5;margin:12px 0;font-weight:900}.name{font-size:clamp(40px,11vw,65px);font-weight:900;color:#a17ae7;margin:0 0 10px}.hint{font-size:14px;color:#a16c91;line-height:1.8}.gift{border:0;background:none;cursor:pointer;position:relative;font-size:120px;line-height:1.2;filter:drop-shadow(0 13px 8px #b64d8b33);animation:bounce 1.6s infinite;transition:transform .2s}.gift:hover{transform:scale(1.1)}@keyframes bounce{0%,100%{translate:0 0}50%{translate:0 -12px}}.cta{border:0;border-radius:99px;background:linear-gradient(110deg,#ff73ae,#ff9e70);color:white;font-size:16px;font-weight:900;padding:15px 28px;box-shadow:0 8px 0 #e76a9470;cursor:pointer;margin:17px 0}.cta:active{transform:translateY(4px);box-shadow:0 4px 0 #e76a9470}.hidden{display:none!important}.message{white-space:pre-line;line-height:2.15;font-size:clamp(15px,3.7vw,18px);font-weight:700;color:#845278;animation:rise .8s ease both;margin:12px 0 24px}.heart{font-size:66px;animation:pulse 1.2s infinite alternate}@keyframes pulse{to{transform:scale(1.15)}}@keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.small{font-size:12px;color:#ae7c9d;margin-top:15px}.controls{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}.secondary{border:2px solid #f9a8cc;background:#fff;color:#db609a;border-radius:99px;padding:10px 16px;font-weight:800;cursor:pointer}.confetti{position:fixed;top:-30px;z-index:5;pointer-events:none;animation:fall var(--duration) linear forwards;left:var(--left);width:var(--size);height:var(--size);background:var(--color);border-radius:var(--round);transform:rotate(var(--rot))}@keyframes fall{to{top:110vh;transform:translateX(var(--drift)) rotate(800deg);opacity:.4}}.footer{text-align:center;color:#ae7696;font-size:12px;margin:18px 0 0}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* Sparkly romantic edition: visual changes only; original BGM untouched. */
+body:before{content:"";position:fixed;inset:-30%;pointer-events:none;background:conic-gradient(from 0deg at 50% 50%,transparent 0deg,#ffffff66 25deg,transparent 60deg,#ffd8ef55 125deg,transparent 180deg,#fff5c966 235deg,transparent 290deg);filter:blur(65px);animation:ambientSpin 24s linear infinite;opacity:.75}
+@keyframes ambientSpin{to{transform:rotate(360deg)}}
+.card{isolation:isolate;border:3px solid transparent;background:linear-gradient(#fffafeee,#fffaffed) padding-box,linear-gradient(120deg,#ffd26b,#fff,#ff80c2,#d5b4ff,#fff,#ffd26b) border-box;box-shadow:0 20px 65px #e66bad55,0 0 32px #fff7c6aa,inset 0 0 34px #ffe2f2aa;animation:cardGlow 4s ease-in-out infinite alternate}
+@keyframes cardGlow{to{box-shadow:0 24px 75px #d776cb77,0 0 55px #fff6bbee,inset 0 0 45px #ffe3f9bb}}
+.card:after{content:"";position:absolute;inset:-60%;z-index:-1;pointer-events:none;background:linear-gradient(105deg,transparent 44%,#ffffff70 49%,#fff9cb80 50%,#ffffff70 51%,transparent 56%);animation:shimmer 7s ease-in-out infinite}
+@keyframes shimmer{0%,18%{transform:translateX(-85%) rotate(12deg)}55%,100%{transform:translateX(85%) rotate(12deg)}}
+.headline{background:linear-gradient(110deg,#ff67a8,#ffb85b,#f05b9d,#b782f0,#ff67a8);background-size:250% 100%;background-clip:text;-webkit-background-clip:text;color:transparent;animation:gradientDance 5s ease-in-out infinite alternate;text-shadow:none;filter:drop-shadow(1px 3px 0 #ffe4b8)}
+.name{filter:drop-shadow(0 0 12px #d7a5ff88)}
+@keyframes gradientDance{to{background-position:100% 0}}
+.gift{filter:drop-shadow(0 0 15px #ffe28c) drop-shadow(0 12px 8px #b64d8b33)}
+.heart{filter:drop-shadow(0 0 18px #ff99c4)}
+.twinkle-layer{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:1}
+.twinkle{position:absolute;left:var(--x);top:var(--y);font-size:var(--s);color:var(--c);opacity:0;animation:twinkle var(--d) ease-in-out var(--delay) infinite;text-shadow:0 0 8px #fff,0 0 16px currentColor}
+@keyframes twinkle{0%,100%{opacity:0;transform:scale(.3) rotate(-25deg)}45%{opacity:.9;transform:scale(1.15) rotate(12deg)}65%{opacity:.65;transform:scale(.85) rotate(25deg)}}
+.card-sparkles{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:inherit;z-index:0}
+.card-sparkles .twinkle{position:absolute}
+#intro,#reveal{position:relative;z-index:2}
+.reveal-flash{position:fixed;inset:0;background:radial-gradient(circle,#fffdf5ee 0%,#ffdaefaa 30%,transparent 70%);z-index:7;pointer-events:none;animation:flashOut 1.1s ease-out forwards}
+@keyframes flashOut{from{opacity:1}to{opacity:0}}
+@media(prefers-reduced-motion:reduce){.twinkle{opacity:.7;animation:none}.card:after,body:before{animation:none}}
+
+/* Soft floating hearts appear after the gift opens. */
+.floating-heart{position:fixed;bottom:-45px;left:var(--heart-left);z-index:6;pointer-events:none;font-size:var(--heart-size);opacity:0;filter:drop-shadow(0 0 7px #ffb0d8);animation:heartAscend var(--heart-duration) ease-out forwards;will-change:transform,opacity}
+@keyframes heartAscend{0%{transform:translate3d(0,0,0) scale(.65) rotate(-12deg);opacity:0}14%{opacity:.9}72%{opacity:.8}100%{transform:translate3d(var(--heart-drift),-110vh,0) scale(1.2) rotate(22deg);opacity:0}}
+@media(prefers-reduced-motion:reduce){.floating-heart{animation:none;display:none}}
+</style></head><body><div class="sparkle">⭐</div><div class="sparkle">💖</div><div class="sparkle">✨</div><div class="sparkle">🌸</div><div class="twinkle-layer" id="sky" aria-hidden="true"></div><main><section class="card" aria-label="Chieへのバースデーカード"><div class="card-sparkles" id="cardStars" aria-hidden="true"></div><div id="intro"><div class="eyebrow">A LITTLE SURPRISE FOR YOU</div><h1 class="headline">Happy<br>Birthday!</h1><div class="name">Chie ♡</div><button id="gift" class="gift" aria-label="プレゼントを開く">🎁</button><p class="hint">プレゼントをタップしてね♡<br>音楽とサプライズが始まるよ♪</p><button class="cta" id="open">OPEN YOUR GIFT ♡</button></div><div id="reveal" class="hidden"><div class="eyebrow">TO MY DEAREST CHIE</div><div class="heart">💝</div><h1 class="headline">Happy<br>Birthday!</h1><div class="name">Chie ♡</div><div class="message">お誕生日おめでとう♡
+大好きなちえと繋がっていられて幸せです！
+そして、たくさんの愛をありがとう♪
+これからも、よろしくお願いします！</div><div class="controls"><button class="secondary" id="music" aria-pressed="true">🔊 音楽 ON</button><button class="secondary" id="again">🎉 もう一度お祝い</button></div><div class="small">With all my love ♡</div></div></section><div class="footer">Made with ♡ especially for Chie</div></main><script>
+'use strict';let ctx=null,playing=false,loopTimer=null,step=0;const BPM=102,beat=60/BPM;let nextTime=0;
+const notes={C3:130.81,D3:146.83,E3:164.81,F3:174.61,G3:196,A3:220,B3:246.94,C4:261.63,D4:293.66,E4:329.63,F4:349.23,G4:392,A4:440,B4:493.88,C5:523.25,D5:587.33,E5:659.25,F5:698.46,G5:783.99,A5:880,C6:1046.5};
+function tone(freq,time,duration,kind='sine',gain=.035){if(!ctx||!freq)return;const osc=ctx.createOscillator(),vol=ctx.createGain(),filter=ctx.createBiquadFilter();osc.type=kind;osc.frequency.setValueAtTime(freq,time);filter.type='lowpass';filter.frequency.value=2400;vol.gain.setValueAtTime(.0001,time);vol.gain.exponentialRampToValueAtTime(gain,time+.018);vol.gain.exponentialRampToValueAtTime(.0001,time+Math.max(.05,duration));osc.connect(filter).connect(vol).connect(ctx.destination);osc.start(time);osc.stop(time+duration+.04)}
+function bell(freq,time,duration,gain=.018){if(!ctx||!freq)return;const osc=ctx.createOscillator(),vol=ctx.createGain();osc.type='sine';osc.frequency.setValueAtTime(freq,time);vol.gain.setValueAtTime(.0001,time);vol.gain.exponentialRampToValueAtTime(gain,time+.012);vol.gain.exponentialRampToValueAtTime(.0001,time+duration);osc.connect(vol).connect(ctx.destination);osc.start(time);osc.stop(time+duration+.02)}
+// Traditional public-domain Happy Birthday melody, arranged as a sweet music-box waltz.
+// Note durations are in quarter-note beats. The short first two notes are pickups.
+const tune=[['G4',.5],['G4',.5],['A4',1],['G4',1],['C5',1],['B4',2],
+ ['G4',.5],['G4',.5],['A4',1],['G4',1],['D5',1],['C5',2],
+ ['G4',.5],['G4',.5],['G5',1],['E5',1],['C5',1],['B4',1],['A4',2],
+ ['F5',.5],['F5',.5],['E5',1],['C5',1],['D5',1],['C5',2]];
+const harmony=[['C3','E4','G4','C5'],['G3','D4','G4','B4'],['F3','F4','A4','C5'],['C3','E4','G4','C5']];
+const phraseStarts=[0,6,12,19];
+function schedule(){if(!playing||!ctx)return;while(nextTime<ctx.currentTime+.5){const i=step%tune.length,[note,len]=tune[i];const phrase=i<6?0:i<12?1:i<19?2:3;const chord=harmony[phrase];if(phraseStarts.includes(i)){tone(notes[chord[0]],nextTime,beat*3.8,'sine',.025);for(let j=1;j<4;j++)tone(notes[chord[j]],nextTime,beat*2.5,'sine',.009)}tone(notes[note],nextTime,beat*len*.91,'sine',.032);bell(notes[note]*2,nextTime,beat*len*.8,.012);if(i%3===2)bell(notes[chord[2]]*2,nextTime+beat*.18,beat*.65,.004);nextTime+=beat*len;step++}loopTimer=setTimeout(schedule,110)}
+async function startMusic(){try{if(!ctx)ctx=new (window.AudioContext||window.webkitAudioContext)();await ctx.resume();if(playing)return;playing=true;nextTime=ctx.currentTime+.05;step=0;schedule();document.getElementById('music').textContent='🔊 音楽 ON';document.getElementById('music').setAttribute('aria-pressed','true')}catch(e){document.getElementById('music').textContent='音楽を再生できません'}}function stopMusic(){playing=false;clearTimeout(loopTimer);if(ctx)ctx.suspend();document.getElementById('music').textContent='🔇 音楽 OFF';document.getElementById('music').setAttribute('aria-pressed','false')}
+function confetti(count=110){const colors=['#ff71aa','#ffd45e','#81d9f6','#ae8afa','#9ae6ae','#ff9c79'];for(let i=0;i<count;i++){const e=document.createElement('span');e.className='confetti';e.style.setProperty('--left',Math.random()*100+'vw');e.style.setProperty('--duration',(2.7+Math.random()*3)+'s');e.style.setProperty('--size',(6+Math.random()*9)+'px');e.style.setProperty('--color',colors[Math.floor(Math.random()*colors.length)]);e.style.setProperty('--round',Math.random()>.5?'50%':'2px');e.style.setProperty('--rot',Math.random()*360+'deg');e.style.setProperty('--drift',(Math.random()*220-110)+'px');document.body.appendChild(e);setTimeout(()=>e.remove(),6100)}}
+
+// Decorative sparkle field; independent of the unchanged music engine.
+(function addSparkles(){const sky=document.getElementById('sky'),inside=document.getElementById('cardStars');for(const [target,count] of [[sky,62],[inside,26]]){for(let i=0;i<count;i++){const star=document.createElement('span');star.className='twinkle';star.textContent=['✦','✧','✳','⋆','✶'][Math.floor(Math.random()*5)];star.style.setProperty('--x',(Math.random()*100).toFixed(1)+'%');star.style.setProperty('--y',(Math.random()*100).toFixed(1)+'%');star.style.setProperty('--s',(10+Math.random()*18).toFixed(0)+'px');star.style.setProperty('--c',['#ffd76f','#ff92c5','#b69bff','#ffffff'][Math.floor(Math.random()*4)]);star.style.setProperty('--d',(2+Math.random()*3).toFixed(2)+'s');star.style.setProperty('--delay',(-Math.random()*5).toFixed(2)+'s');target.appendChild(star)}}})();
+function sparkleBurst(){const flash=document.createElement('div');flash.className='reveal-flash';document.body.appendChild(flash);setTimeout(()=>flash.remove(),1200)}
+
+let heartInterval=null;
+function floatingHearts(count=12){
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  const shapes=['♡','♥','💗','💕','💖'];
+  for(let i=0;i<count;i++){
+    setTimeout(()=>{
+      const h=document.createElement('span');h.className='floating-heart';h.textContent=shapes[Math.floor(Math.random()*shapes.length)];
+      h.style.setProperty('--heart-left',(8+Math.random()*84)+'vw');
+      h.style.setProperty('--heart-size',(13+Math.random()*15)+'px');
+      h.style.setProperty('--heart-duration',(5.5+Math.random()*3.5)+'s');
+      h.style.setProperty('--heart-drift',(Math.random()*150-75)+'px');
+      document.body.appendChild(h);h.addEventListener('animationend',()=>h.remove(),{once:true});
+    },i*130);
+  }
+}
+function startFloatingHearts(){floatingHearts(20);if(!heartInterval)heartInterval=setInterval(()=>{if(!document.hidden)floatingHearts(5)},3100)}
+
+function openGift(){sparkleBurst();document.getElementById('intro').classList.add('hidden');document.getElementById('reveal').classList.remove('hidden');confetti();startFloatingHearts();startMusic()}document.getElementById('gift').addEventListener('click',openGift);document.getElementById('open').addEventListener('click',openGift);document.getElementById('music').addEventListener('click',()=>playing?stopMusic():startMusic());document.getElementById('again').addEventListener('click',()=>{confetti(140);sparkleBurst();floatingHearts(22)});document.addEventListener('visibilitychange',()=>{if(document.hidden&&playing)stopMusic()});
+</script></body></html>
